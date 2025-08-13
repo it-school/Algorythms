@@ -92,7 +92,6 @@ public class Fabrika {
          }
       }
 
-
       public int solve() {
          backtrack(0, 0);
          if (minCost == Integer.MAX_VALUE) {
